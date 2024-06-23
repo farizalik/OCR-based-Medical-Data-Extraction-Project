@@ -20,7 +20,7 @@ We use the Python programming language and the Google Tesseract OCR library (pyt
 - Postman
 - FastApi
 ## Workflow
-![Diagram](https://github.com/farizalik/OCR-based-Medical-Data-Extraction-Project/blob/main/workflow.jpg)
+![Diagram](https://github.com/farizalik/OCR-based-Medical-Data-Extraction-Project/blob/main/images/workflow.jpg)
 
 ## PDF to Image
 For converting PDF to image, we have used pdf2image library.
