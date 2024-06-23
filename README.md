@@ -79,3 +79,9 @@ Directions:
 Prednisone, Taper 5 mg every 3 days,
 Finish in 2.5 weeks a
 Lialda - take 2 pill everyday for 1 month
+
+## Notebook
+For all these above trials, used jupyter books and developed the small bits of the functionalities., which can be used later while designing the class.
+[Link to Docs Folder](./notebooks/)
+
+
