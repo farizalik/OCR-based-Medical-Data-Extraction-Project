@@ -27,7 +27,7 @@ For converting PDF to image, we have used pdf2image library.
 
 ## Without preprocessing extracting data
 Tried extracting data from source files without any processing, as they are not in proper format to be extracted, the extracted data was not as expected.
-![Diagram](https://github.com/farizalik/OCR-based-Medical-Data-Extraction-Project/blob/main/dark_image.jpg)
+![Diagram](https://github.com/farizalik/OCR-based-Medical-Data-Extraction-Project/blob/main/images/dark_image.jpg)
 
 ## Extracted data from the above image
 Dr John Smith, M.D
@@ -52,12 +52,12 @@ or 1 month
 we decided to preprocess the images using the OpenCV module, before extracting data from them. For that, we have first used normal thresholding and checked, which resulted in below image
 
 
-![Diagram](https://github.com/farizalik/OCR-based-Medical-Data-Extraction-Project/blob/main/filter_dark.jpg)
+![Diagram](https://github.com/farizalik/OCR-based-Medical-Data-Extraction-Project/blob/main/images/filter_dark.jpg)
 
 So, if there is any shadow or some noise, the normal thresholding fades out the area. which will result in a loss of data.
 In the search for a better approach to this problem, we have decided to use the adaptive thresholding technique. In this technique, the image will be divided into sub-images and the thresholding value will be different for all sub-regions. The end result of adaptive thresholding is much better compared to normal thresholding.
 
-![Diagram](https://github.com/farizalik/OCR-based-Medical-Data-Extraction-Project/blob/main/adaptive_filter_dark.jpg)
+![Diagram](https://github.com/farizalik/OCR-based-Medical-Data-Extraction-Project/blob/main/images/adaptive_filter_dark.jpg)
 
 ## After preprocessing the image data extraction
 
