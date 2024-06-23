@@ -94,6 +94,22 @@ using regular expression module we can match the patterns and extract the data w
 
 ## Test driven Development
 In this project test driven development methodology was used to develop the code. For testing pytest module was used. For all the methods and final result the test cases was designed and checked simultaneously while developing the code.
+[Tests](https://github.com/farizalik/OCR-based-Medical-Data-Extraction-Project/tree/main/backend/src)
 
+## FastApi
+Used FastAPI for hosting the server of the project. FastApi, as name suggest is help us to develop fast and some other advantages are,
 
+- In build Data validation
+- In build Documentation
+- Fast running and performance
 
+  
+## Postman
+As it is a backend project, not developed frontend part. For checking how the server responds for http requests, used postman to trigger http requests and tested the outcome.
+![Diagram](https://github.com/farizalik/OCR-based-Medical-Data-Extraction-Project/blob/main/images/postman.png)
+
+## Result:
+This backend functionality can seamlessly integrate into Mr.X Analytics' existing software, automating the extraction of data. While the extracted data may contain errors, the assigned personnel will rectify these and submit the corrected data.
+
+## Benefits:
+Implementing this integration allows Mr.X Analytics to save a minimum of 30 seconds per document. Though seemingly minor for individual documents, this time-saving accumulates significantly, enabling the company to process more documents within deadlines and enhance profitability. This approach also obviates the need for hiring additional seasonal staff. Moreover, by combining automation with manual oversight, the error rate is markedly reduced.
