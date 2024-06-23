@@ -84,5 +84,16 @@ Lialda - take 2 pill everyday for 1 month
 For all these above trials, used jupyter books and developed the small bits of the functionalities., which can be used later while designing the class.
 [notebooks](https://github.com/farizalik/OCR-based-Medical-Data-Extraction-Project/tree/main/backend/notebooks)
 
+## OOPS design
+The code was written in using OOPs concepts for extracting the medical data from prescription and patient details documents.
+[codes](https://github.com/farizalik/OCR-based-Medical-Data-Extraction-Project/tree/main/backend/src )
+
+## Regular expression
+using regular expression module we can match the patterns and extract the data we want from the files. For this project, analyst the medical files and as fact all the medical documents will follow same pattern, we wrote patterns that match only the required data. Before writing the python code, It is advisable to practise and match the patterns in regex 101 website.
+[regex101.com](https://regex101.com/)
+
+## Test driven Development
+In this project test driven development methodology was used to develop the code. For testing pytest module was used. For all the methods and final result the test cases was designed and checked simultaneously while developing the code.
+
 
 
