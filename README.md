@@ -82,6 +82,7 @@ Lialda - take 2 pill everyday for 1 month
 
 ## Notebook
 For all these above trials, used jupyter books and developed the small bits of the functionalities., which can be used later while designing the class.
-[Link to Docs Folder](./notebooks/)
+[notebooks](https://github.com/farizalik/OCR-based-Medical-Data-Extraction-Project/tree/main/backend/notebooks)
+
 
 
